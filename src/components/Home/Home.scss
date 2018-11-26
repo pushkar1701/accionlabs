@@ -1,0 +1,39 @@
+.home-container {
+    height: 100vw;
+    width: 100vw;
+    background-color: #538FF4;
+
+    .home-content {
+        display: flex;
+        justify-content: space-around;
+        padding: 1% 10%;
+
+        .home-services-form-container {
+            flex: 0.5;
+            color: white;
+
+            .info {
+                padding-right: 7%;
+
+                .services-info {
+                    font-size: 40px;
+                    font-weight: 500;
+                    padding: 5% 0;
+                }
+                .company-info {
+                    font-size: 20px;
+                    padding: 3% 0;
+                }
+            }
+        }
+        .home-services-img-container {
+            flex: 0.5;
+
+            img {
+                padding-top: 25%;
+                max-height:100%;
+                max-width:100%;
+            }
+        }
+    }
+}
