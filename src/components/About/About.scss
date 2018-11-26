@@ -1,3 +1,55 @@
 .about-container {
-    height: 100vh;
+    width: 100vw;
+    
+    .about-content-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 2% 5%;
+
+        .invoice-image-container {
+            display: flex;
+            flex: 1 0 50%;
+            justify-content: center;
+            align-items: center;
+            color: white;
+    
+            img {
+                width: 70%;
+                height: auto;
+            }
+        }
+
+        .about-info-container {
+            display: flex;
+            flex: 1 0 50%;
+            flex-direction: column;
+
+            .about-info-title {
+                font-size: x-large;
+                padding: 5%;
+                font-weight: 600;
+                width: 20vw;
+            }
+
+
+            .about-info-list {
+                display: flex;
+                flex-direction: column;
+                flex: 1 0 50%;
+            }
+
+            .about-info-list-item span{
+                font-size: 0.9em;
+                font-weight: 600;
+                width: 122vh;
+            }
+        }
+    }
+    .about-footer-container {
+        
+    }
+
+    .list-icon {
+        width: 12%;
+    }
 }
