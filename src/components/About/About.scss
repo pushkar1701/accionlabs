@@ -14,8 +14,7 @@
             max-width: 40vw;
         
             img {
-                max-height: auto;
-                max-width: 70%;
+                max-width: 50%;
             }
         }
 
@@ -29,26 +28,87 @@
                 width: 20vw;
             }
 
-
             .about-info-list {
                 display: flex;
                 flex-direction: column;
                 flex: 1 0 50%;
 
-                ul {
-                    list-style-position: inside;
+                ul li {
+                    padding: 0 24px;
+                }
+                
+                span{
+                    font-size: 0.9em;
+                    font-weight: 600;
                 }
             }
 
-            .about-info-list-item span{
-                font-size: 0.9em;
-                font-weight: 600;
-                width: 122vh;
+            .solutions-btn {
+                width: 30%;
+                margin-left: 5%;
+                font-size: 12px;
+                text-transform: capitalize;
             }
         }
     }
     .about-footer-container {
-        
+        display: flex;
+        padding: 2% 14% 1% 14%;
+
+        .about-footer-info {
+            display: flex;
+            flex: 0.5 1;
+            justify-content: center;
+            align-items: center;
+
+            .about-footer-info-text-container {
+                display: flex;
+                flex-direction: column;
+                padding: 6%;
+
+                .about-footer-info-text {
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+
+                .about-footer-info-subtext {
+                    padding-top: 2%;
+                    font-size: 12px;
+                    color: grey;
+                    font-weight: 600;
+                    line-height: 1.6em;
+                }
+                
+            }
+
+            img {
+                max-width: 20%;
+            }
+        }
+
+        .about-footer-clients {
+            display: flex;
+            flex: 0.5 1;
+
+            .company-details {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                
+                img {
+                    max-width: 35%;
+                }
+
+                .company-text {
+                    font-size: 12px;
+                    font-weight: 700;
+                    color: grey;
+                    text-align: center;
+                    line-height: 1.8em;
+                }
+            }
+        }
     }
 
     .list-icon {
