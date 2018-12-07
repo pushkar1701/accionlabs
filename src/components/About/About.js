@@ -32,7 +32,7 @@ const ClientsList = [{
 }, {
     companyText: 'Join Netsuite integration wait list.',
     logo: Netsuite
-},]
+}]
 
 class About extends Component {
     render() {

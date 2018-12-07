@@ -1,3 +1,49 @@
 .demo-container {
-    height: 100vh;
+    width: 100vw;
+
+    .demo-request-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 2% 5%;
+        background-color: #1A2A49;
+
+        .demo-request-list-container {
+            flex: 0.5 1;
+            color: white;
+
+            .demo-request-title {
+                font-size: x-large;
+                padding: 5%;
+                font-weight: 600;
+                width: 20vw;
+            }
+
+            .demo-request-list {
+                display: flex;
+                flex-direction: column;
+                flex: 1 0 50%;
+
+                .about-info-list-item {
+                    
+                }
+
+                ul li {
+                    padding: 0 24px;
+                }
+                
+                span{
+                    font-size: 0.9em;
+                    font-weight: 600;
+                    color: white;
+                }
+            }
+
+            .solutions-btn {
+                width: 30%;
+                margin-left: 5%;
+                font-size: 12px;
+                text-transform: capitalize;
+            }
+        }
+    }
 }
